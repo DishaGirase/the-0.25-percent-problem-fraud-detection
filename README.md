@@ -71,8 +71,12 @@ To enhance fraud detection, new features were created:
   - Very large transactions (high-value attacks)  
 
 ### Visualizations:
-- Bar Plot (Time vs Fraud) 
+- Bar Plot (Fraud vs Time) 
 - Box Plot (Amount vs Fraud)  
+
+[View Fraud vs Time Chart](images/fraud_vs_time.png) , 
+[View Fraud vs Amount Chart](images/fraud_vs_amount.png) , 
+[View Fraud By Hour Chart](images/fraud_by_hour.png)
 
 ---
 
