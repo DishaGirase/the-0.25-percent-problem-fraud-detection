@@ -9,7 +9,8 @@ In this case study, we tackle a dataset where fraud accounts for only **0.25% of
 ---
 
 ##  Dataset  
-- Source: Kaggle – Credit Card Fraud Detection Dataset  
+- Source: Kaggle – **Credit Card Fraud Detection Dataset**  
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud  
 
 ### Key Statistics:
 - Total Transactions: **71,396**  
@@ -183,7 +184,7 @@ Fraud patterns are:
 - Shows trade-off between TPR & FPR  
 - AUC close to 1 indicates strong model  
 
-[View ROC Curve](images/roc_curve.png)  
+##### [View ROC Curve](images/roc_curve.png)  
 
 ---
 
@@ -204,6 +205,20 @@ Fraud patterns are:
 
 ---
 
+##  Resources  
+
+-  [Project Report](reports/the_0.25_percent_problem_report.pdf)  
+-  [Jupyter Notebook](notebooks/rare_event_fraud_detection_analysis.ipynb)
+  
+---
+
+##  Disclaimer  
+
+- This dataset is publicly available on Kaggle  
+- It is used only for educational and research purposes in this project  
+- Dataset is not included in this repository due to its size
+
+---
 ##  Conclusion  
 
 - Fraud detection is a **highly imbalanced problem**  
@@ -213,37 +228,6 @@ Fraud patterns are:
 
 ---
 
-##  Project Structure  
-
-```
-the-0.25-percent-problem-fraud-detection/  
-│  
-├── data/  
-│   └── credit_card_transactions.csv  
-│  
-├── notebooks/  
-│   └── rare_event_fraud_detection_analysis.ipynb  
-│  
-├── images/  
-│   ├── fraud_vs_time.png  
-│   ├── fraud_vs_amount.png  
-│   ├── confusion_matrix_logistic_regression.png  
-│   ├── confusion_matrix_svm.png  
-│   ├── confusion_matrix_random_forest.png  
-│   ├── roc_curve.png  
-│   └── model_performance_comparison.png  
-│  
-├── reports/  
-│   └── the_0.25_percent_problem_report.pdf  
-│  
-├── README.md  
-└── requirements.txt
-```
-##  Resources  
-
--  [Project Report](reports/the_0.25_percent_problem_report.pdf)  
--  [Jupyter Notebook](notebooks/rare_event_fraud_detection_analysis.ipynb)
----
 ## License
 
 MIT License  
