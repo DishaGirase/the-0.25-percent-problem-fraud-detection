@@ -107,6 +107,8 @@ Because fraud is rare, accuracy becomes misleading.
 | ROC-AUC | 0.968 |
 
  High recall but too many false alarms  
+ 
+###### [View Logistic Regression Confusion Matrix](images/confusion_matrix_logistic_regression.png)
 
 ---
 
@@ -120,7 +122,9 @@ Because fraud is rare, accuracy becomes misleading.
 | Accuracy | 0.99 |
 | ROC-AUC | 0.955 |
 
- Better balance but still moderate precision  
+ Better balance but still moderate precision 
+ 
+###### [View SVM Confusion Matrix](images/confusion_matrix_svm.png)
 
 ---
 
@@ -139,6 +143,7 @@ Because fraud is rare, accuracy becomes misleading.
 
  **Best performer with balanced precision & recall**
 
+###### [View Random Forest Confusion Matrix](images/confusion_matrix_random_forest.png)
 ---
 
 ##  Model Comparison  
