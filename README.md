@@ -158,6 +158,8 @@ Because fraud is rare, accuracy becomes misleading.
 | SVM | 0.32 | 0.91 | 0.47 | 0.99 | 0.955 |
 | Random Forest | 0.91 | 0.91 | 0.91 | 1.00 | 0.969 |
 
+##### [View Model Performance Comparison](images/model_performance_comparison.png)
+
 ---
 
 ##  Why Random Forest Wins  
@@ -180,6 +182,8 @@ Fraud patterns are:
 
 - Shows trade-off between TPR & FPR  
 - AUC close to 1 indicates strong model  
+
+[View ROC Curve](images/roc_curve.png)  
 
 ---
 
@@ -235,11 +239,17 @@ the-0.25-percent-problem-fraud-detection/
 ├── README.md  
 └── requirements.txt
 ```
+##  Resources  
 
+-  [Project Report](reports/the_0.25_percent_problem_report.pdf)  
+-  [Jupyter Notebook](notebooks/rare_event_fraud_detection_analysis.ipynb)
 ---
+## License
 
-##  Author  
+MIT License  
 
-**Disha Girase**  
+Copyright (c) 2026 Disha Girase  
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this project to use, modify, and distribute it for educational purposes.
 
 ---
