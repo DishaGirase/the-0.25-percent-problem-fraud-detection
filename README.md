@@ -207,7 +207,7 @@ Fraud patterns are:
 
 ##  Resources  
 
--  [Project Report](reports/the_0.25_percent_problem_report.docx)  
+-  [Project Report](the_0.25_percent_problem_report.pdf)  
 -  [Jupyter Notebook](notebooks/rare_event_fraud_detection_analysis.ipynb)
   
 ---
